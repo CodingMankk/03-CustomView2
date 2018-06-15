@@ -4,6 +4,7 @@ import android.content.Context;
 import android.graphics.BlurMaskFilter;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.EmbossMaskFilter;
 import android.graphics.Paint;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -60,5 +61,27 @@ public class MyViewMaskFilter extends View {
         //外发光
         mPaint.setMaskFilter(new BlurMaskFilter(50, BlurMaskFilter.Blur.SOLID));
         canvas.drawCircle(120, 700, 50, mPaint);
+
+        //外发光
+        /**
+         *
+         * direction 是一个含有三个float元素的数组，对应x、y、z三个方向上的值；用于指定光源方向
+
+         ambient 环境光的因子 （0~1），0~1表示从暗到亮
+
+         specular 镜面反射系数，越接近0，反射光越强
+
+         blurRadius 模糊半径，值越大，模糊效果越明显
+         */
+        mPaint.setColor(Color.BLACK);
+        mPaint.setMaskFilter(new EmbossMaskFilter(new float[]{100,100,100},1,0,50));
+        canvas.drawCircle(120, 900, 50, mPaint);
+
+        mPaint.reset();
+        mPaint.setMaskFilter(new EmbossMaskFilter(new float[]{0,50,0},1,0,50));
+        mPaint.setTextSize(100);
+        mPaint.setStrokeWidth(5);
+        mPaint.setStyle(Paint.Style.FILL_AND_STROKE);
+        canvas.drawText("中国欢迎您",100,1000,mPaint);
     }
 }
