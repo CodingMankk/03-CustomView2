@@ -1,18 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:id="@+id/root"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.codingman.www.customview2.MainActivity">
+
+    <Button
+        android:id="@+id/bt_changeDx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dx++"/>
+
+    <Button
+        android:id="@+id/bt_changeDy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dy++"/>
+
+    <Button
+    android:id="@+id/bt_changeRadius"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.codingman.www.customview2.MainActivity">
+    android:layout_height="wrap_content"
+    android:text="radius++"/>
+
+    <Button
+        android:id="@+id/bt_addShadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="addShadow"/>
+
+
+    <Button
+        android:id="@+id/bt_clearShadow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clearShadow1"/>
+
+    <Button
+        android:id="@+id/bt_clearShadow2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clearShadow2"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:shadowColor="#ff0000"
+        android:textSize="35dp"
+        android:shadowRadius="1"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:id="@+id/tv_shadow"
+        android:textColor="#000000"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="北京欢迎你！！！"/>
 
-</android.support.constraint.ConstraintLayout>
+
+    <com.codingman.www.customview2.MyViewPaintShower
+        android:id="@+id/myView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </com.codingman.www.customview2.MyViewPaintShower>
+
+
+
+</LinearLayout>
