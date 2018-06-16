@@ -1,3 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <declare-styleable name="MyViewAlphaCunstomView04">
+        <attr name="src" format="reference"/>
+        <attr name="ShadowDx" format="integer"/>
+        <attr name="ShadowDy" format="integer"/>
+        <attr name="ShadowColor" format="color"/>
+        <attr name="ShadowRadius" format="float"/>
+    </declare-styleable>
+
 </resources>

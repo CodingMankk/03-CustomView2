@@ -5,7 +5,7 @@
               android:orientation="vertical">
 
     <com.codingman.www.customview2.MyViewMaskFilter01
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
 </LinearLayout>

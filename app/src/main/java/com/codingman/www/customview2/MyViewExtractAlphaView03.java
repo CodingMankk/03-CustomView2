@@ -16,24 +16,24 @@ import android.view.View;
  * @function:
  */
 
-public class MyViewExtractAlphaView extends View{
+public class MyViewExtractAlphaView03 extends View{
 
     private Paint mPaint;
     private Bitmap mBitmap;
     private Bitmap mAlphaBitmap;
 
 
-    public MyViewExtractAlphaView(Context context) {
+    public MyViewExtractAlphaView03(Context context) {
         super(context);
         init();
     }
 
-    public MyViewExtractAlphaView(Context context, @Nullable AttributeSet attrs) {
+    public MyViewExtractAlphaView03(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public MyViewExtractAlphaView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public MyViewExtractAlphaView03(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }

@@ -4,8 +4,9 @@
               android:layout_height="match_parent"
               android:orientation="vertical">
 
-    <com.codingman.www.customview2.MyViewExtractAlphaView03
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
+    <com.codingman.www.customview2.MyViewBitmapShader05
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.codingman.www.customview2.MyViewBitmapShader05>
 
 </LinearLayout>
