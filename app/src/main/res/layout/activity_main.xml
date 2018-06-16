@@ -58,11 +58,11 @@
         android:text="北京欢迎你！！！"/>
 
 
-    <com.codingman.www.customview2.MyViewPaintShower
+    <com.codingman.www.customview2.MyViewPaintShower00
         android:id="@+id/myView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    </com.codingman.www.customview2.MyViewPaintShower>
+    </com.codingman.www.customview2.MyViewPaintShower00>
 
 
 

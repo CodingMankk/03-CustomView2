@@ -17,7 +17,7 @@ import android.widget.Toast;
  * @function:
  */
 
-public class MyViewPaintShower extends View {
+public class MyViewPaintShower00 extends View {
 
     private Paint mPaint;
     private Path mPath;
@@ -29,17 +29,17 @@ public class MyViewPaintShower extends View {
 
     private boolean isShadow = false;
 
-    public MyViewPaintShower(Context context) {
+    public MyViewPaintShower00(Context context) {
         super(context);
         init();
     }
 
-    public MyViewPaintShower(Context context, @Nullable AttributeSet attrs) {
+    public MyViewPaintShower00(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public MyViewPaintShower(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public MyViewPaintShower00(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }

@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button mBtnClearShadow1;
     private Button mBtnClearShadow2;
 
-    private MyViewPaintShower myviewpaintshower;
+    private MyViewPaintShower00 myviewpaintshower;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mBtnChangeDx = (Button) findViewById(R.id.bt_changeDx);
         mBtnChangeDy = (Button) findViewById(R.id.bt_changeDy);
         mBtnChangeRadius = (Button) findViewById(R.id.bt_changeRadius);
-        myviewpaintshower = (MyViewPaintShower) findViewById(R.id.myView);
+        myviewpaintshower = (MyViewPaintShower00) findViewById(R.id.myView);
         mBtnAddShadow = (Button)findViewById(R.id.bt_addShadow);
         mBtnClearShadow1 = (Button)findViewById(R.id.bt_clearShadow1);
         mBtnClearShadow2 = (Button)findViewById(R.id.bt_clearShadow2);

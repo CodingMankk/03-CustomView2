@@ -14,22 +14,22 @@ import android.view.View;
  * @function:
  */
 
-public class MyViewMaskFilter extends View {
+public class MyViewMaskFilter01 extends View {
 
     private Paint mPaint;
 
 
-    public MyViewMaskFilter(Context context) {
+    public MyViewMaskFilter01(Context context) {
         super(context);
         init();
     }
 
-    public MyViewMaskFilter(Context context, @Nullable AttributeSet attrs) {
+    public MyViewMaskFilter01(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
-    public MyViewMaskFilter(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public MyViewMaskFilter01(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }
