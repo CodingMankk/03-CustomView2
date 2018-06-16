@@ -17,6 +17,8 @@ public class SecondActivity extends AppCompatActivity {
 //        setContentView(R.layout.activity_extraalpha_layout);
 //        setContentView(R.layout.activity_alphacustomview_layout);
 //        setContentView(R.layout.activity_shader_layout);
-        setContentView(R.layout.activity_circleview_layout);
+//        setContentView(R.layout.activity_circleview_layout);
+//        setContentView(R.layout.activity_linergrident_layout);
+        setContentView(R.layout.acitivity_rippleview_layout);
     }
 }
