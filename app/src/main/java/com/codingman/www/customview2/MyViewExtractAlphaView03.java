@@ -107,8 +107,7 @@ public class MyViewExtractAlphaView extends View{
         canvas.drawBitmap(mBitmap,null,
                 new Rect(0,height,width,height*2),mPaint);
         canvas.drawBitmap(mBitmap,null,
-                new Rect(0,height*2,width,height*3
-),mPaint);
+                new Rect(0,height*2,width,height*3),mPaint);
 
 
     }
