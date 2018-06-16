@@ -8,4 +8,13 @@
         <attr name="ShadowRadius" format="float"/>
     </declare-styleable>
 
+    <declare-styleable name="roundedimageview">
+
+        <attr name="border_thickness" format="integer"/>
+        <attr name="border_outside_color" format="color"/>
+        <attr name="border_inside_color" format="color"/>
+
+
+    </declare-styleable>
+
 </resources>
